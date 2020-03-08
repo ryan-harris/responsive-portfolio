@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
     <!-- header which is a navbar overall -->
-    <header class="navbar-expand navbar-light bg-light py-0 px-0 px-sm-4 mx-0 border-bottom border-2 border-secondary">
+    <header class="navbar-expand navbar-light bg-light py-0 px-0 px-sm-2 px-md-3 mx-0 border-bottom border-2">
         <div class="container mw-100">
             <div class="row m-0">
                 <!-- treat as a column until sm screen width -->
@@ -38,8 +38,25 @@
         </div>
     </header>
 
-    <main>
-        <h1>CONTACT CONTENT</h1>
+    <main class="p-2 p-md-3">
+        <section class="mx-0 px-3 bg-light border h-100">
+            <h2 class="text-info border-bottom border-2 py-2 mb-2 mb-sm-3">Contact</h2>
+            <form class="mb-3">
+                <div class="form-group">
+                    <label for="nameFormControlInput">Name</label>
+                    <input type="text" class="form-control" id="nameFormControlInput" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="emailFormControlInput">Email</label>
+                    <input type="email" class="form-control" id="emailFormControlInput" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="messageFormControlTextarea">Message</label>
+                    <textarea class="form-control" id="messageFormControlTextarea" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
+        </section>
     </main>
 
     <!-- sticky footer -->

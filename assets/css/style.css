@@ -2,6 +2,10 @@ body {
     background: url('../images/dust_scratches.png') repeat;
 }
 
+h2 {
+    font-family: Noto, 'Times New Roman', Times, serif;
+}
+
 /* Border sizing styles */
 .border-3 {
     border-width: 3px !important;
@@ -9,4 +13,38 @@ body {
 
 .border-2 {
     border-width: 2px !important;
+}
+
+main section {
+    width: 100%;
+}
+/* 
+p {
+    font-size: 20px;
+} */
+
+#headshot {
+    width: 100%;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 576px or more.
+*/
+@media screen and (min-width: 576px) {
+    #headshot {
+        max-width: 340px;
+        max-height: auto;
+    }
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or more.
+*/
+@media screen and (min-width: 768px) {
+    main section {
+        min-width: 720px;
+        max-width: 75%;
+    }
 }
