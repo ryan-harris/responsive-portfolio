@@ -11,28 +11,44 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Ryan Harris</title>
+    <title>Ryan Harris - Software Developer</title>
 
 </head>
 
 <body class="d-flex flex-column h-100">
-    <header class="navbar navbar-expand navbar-light bg-light px-5 justify-content-between border-bottom border-2 border-secondary">
-        <h1 class="navbar-brand p-2 my-auto text-dark">Ryan Harris</h1>
-        <nav class="navbar-nav">
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-        </nav>
+    <!-- header which is a navbar overall -->
+    <header class="navbar-expand navbar-light bg-light py-0 px-0 px-sm-4 mx-0 border-bottom border-2 border-secondary">
+        <div class="container mw-100">
+            <div class="row">
+                <!-- treat as a column until sm screen width -->
+                <div class="col-sm d-flex justify-content-center justify-content-sm-start">
+                    <!-- navbar brand which is my name in this case -->
+                    <span class="navbar-brand h1 p-3 my-auto text-light bg-info">Ryan Harris</span>
+                </div>
+                <!-- treat as a column until sm screen width -->
+                <div class="col-sm my-auto">
+                    <!-- navbar links -->
+                    <nav class="navbar-nav d-flex justify-content-center justify-content-sm-end">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <div class="container">
-            <h1>MAIN CONTENT PLACEHOLDER</h1>
+    <main class="container">
+        <div class="row">
+            <div class="float-none float-sm-left"></div>
         </div>
+            <h1>MAIN CONTENT PLACEHOLDER</h1>
     </main>
 
+    <!-- sticky footer -->
     <footer class="footer mt-auto py-2 bg-secondary border-top border-info border-3">
-        <h6 class="d-flex justify-content-center text-light">&copy; Copyright</h6>
+        <!-- center the content in the footer -->
+        <span class="h6 d-flex justify-content-center text-light">&copy; Copyright</span>
     </footer>
 </body>
 

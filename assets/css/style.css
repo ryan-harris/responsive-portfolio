@@ -2,6 +2,11 @@ body {
     background: url('../images/dust_scratches.png') repeat;
 }
 
+header span {
+    font-family: Georgia, serif;
+}
+
+/* Border sizing styles */
 .border-3 {
     border-width:3px !important;
 }

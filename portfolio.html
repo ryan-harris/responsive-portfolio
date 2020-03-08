@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Ryan Harris</title>
+    <title>Ryan Harris - Software Developer</title>
+
 </head>
-<body>
-    
+
+<body class="d-flex flex-column h-100">
+    <!-- header which is a navbar overall -->
+    <header class="navbar-expand navbar-light bg-light py-0 px-4 mx-0 border-bottom border-2 border-secondary">
+        <div class="container mw-100">
+            <div class="row">
+                <!-- treat as a column until sm screen width -->
+                <div class="col-sm d-flex justify-content-center justify-content-sm-start">
+                    <!-- navbar brand which is my name in this case -->
+                    <span class="navbar-brand h1 p-3 my-auto text-light bg-info">Ryan Harris</span>
+                </div>
+                <!-- treat as a column until sm screen width -->
+                <div class="col-sm my-auto">
+                    <!-- navbar links -->
+                    <nav class="navbar-nav d-flex justify-content-center justify-content-sm-end">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+            <h1>PORTFOLIO PLACEHOLDER</h1>
+    </main>
+
+    <!-- sticky footer -->
+    <footer class="footer mt-auto py-2 bg-secondary border-top border-info border-3">
+        <!-- center the content in the footer -->
+        <h6 class="d-flex justify-content-center text-light">&copy; Copyright</h6>
+    </footer>
 </body>
+
 </html>
