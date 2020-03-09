@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-    font-family: Noto, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Border sizing styles */
@@ -44,7 +44,7 @@ p {
 */
 @media screen and (min-width: 768px) {
     main section {
-        min-width: 720px;
-        max-width: 75%;
+        width: 741px;
+        /* max-width: 75%; */
     }
 }
