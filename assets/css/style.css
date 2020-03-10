@@ -2,26 +2,14 @@ body {
     background: url('../images/dust_scratches.png') repeat;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Border sizing styles */
-.border-3 {
-    border-width: 3px !important;
-}
-
-.border-2 {
-    border-width: 2px !important;
-}
-
+/* main section take up 100% until 768 screen width when media query takes over */
 main section {
     width: 100%;
 }
-/* 
-p {
-    font-size: 20px;
-} */
 
 #headshot {
     width: 100%;
@@ -44,7 +32,16 @@ p {
 */
 @media screen and (min-width: 768px) {
     main section {
-        width: 741px;
+        width: 735px;
         /* max-width: 75%; */
     }
+}
+
+/* Border sizing styles */
+.border-3 {
+    border-width: 3px !important;
+}
+
+.border-2 {
+    border-width: 2px !important;
 }
